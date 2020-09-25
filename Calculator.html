@@ -1,0 +1,61 @@
+<html>
+<head>
+  <script>
+  function a(val)
+  {
+    document.getElementById('final_result').value+=val;
+  }
+  function solve()
+  {
+             let x = document.getElementById("final_result").value
+             let y = eval(x)
+             document.getElementById("final_result").value = y
+  }
+  function clr()
+  {
+    document.getElementById('final_result').value=" ";
+  }
+  </script>
+  <link rel="stylesheet"  href="cal.css">
+</head>
+<body><br><br>
+<div class="container">
+  <div> <input type="text" class="screen" id="final_result"></input>
+</div>
+<div>
+    <input type="button" class="keys" value="AC" onclick="clr()">
+  </div>
+  <div ><input type="button" class="keys" value="7" onclick="a('7')">
+  </div>
+  <div><input type="button" class="keys" value="8" onclick="a('8')">
+  </div>
+  <div><input type="button" class="keys" value="9" onclick="a('9')">
+  </div>
+  <div><input type="button" class="keys" value="+" onclick="a('+')">
+  </div>
+  <div> <input type="button" class="keys" value="6" onclick="a('6')">
+  </div>
+  <div><input type="button" class="keys" value="5" onclick="a('5')">
+  </div>
+  <div><input type="button" class="keys" value="4" onclick="a('4')">
+  </div>
+  <div><input type="button" class="keys" value="-" onclick="a('-')">
+  </div><br><br><br><br>
+  <div><input type="button" class="keys" value="1" onclick="a('1')">
+  </div>
+  <div><input type="button" class="keys" value="2" onclick="a('2')">
+  </div>
+  <div><input type="button" class="keys" value="3" onclick="a('3')">
+  </div>
+  <div><input type="button" class="keys" value="*" onclick="a('*')">
+  </div><br><br><br><br>
+  <div><input type="button" class="keys" value="." onclick="a('0')">
+  </div>
+  <div><input type="button" class="keys" value="0" onclick="a('.')">
+  </div>
+  <div><input type="button" class="keys" value="/" onclick="a('/')">
+  </div>
+  <div><input type="submit" class="enter" value="=" onclick="solve()">
+</div>
+ </body>
+ </html>
