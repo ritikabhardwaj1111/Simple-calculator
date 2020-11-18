@@ -1,6 +1,5 @@
 # Simple-calculator
-A simple calculator build with Javascript, Css and Html.
-On which basic opreations can be performed such as Addition, Substraction, Multiplication and Division.
+A simple calculator build with JavaScript, CSS and HTML. On which basic operations can be performed such as Addition, Subtraction, Multiplication and Division.
 
 
 
